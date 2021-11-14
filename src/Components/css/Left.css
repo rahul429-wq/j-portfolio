@@ -6,13 +6,6 @@
   --links-color: #8b8a89;
   --color: #fff;
 }
-.LeftBar {
-  width: 10%;
-  /* padding: 10px; */
-  min-height: 100vh;
-
-  background-color: var(--l-bg);
-}
 
 .LeftCard {
   background-color: var(--l-card-bg);
@@ -48,21 +41,39 @@ a {
   list-style: none;
   text-decoration: none;
 }
-.Links {
+.Links ul {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: var(--links-color);
+  /* color: var(--links-color); */
 }
 .Links ul li {
   width: 100%;
   text-align: center;
-  padding: 10px;
   /* border-bottom: var(--links-color) 1px solid; */
 }
-.Links ul li :hover {
+.Links ul li a {
+  padding: 20px;
+  display: block;
+  color: var(--links-color);
+  /* border-bottom: 0.2px solid var(--links-color); */
+}
+
+.Links ul li a:hover {
   background-color: var(--links-color);
   color: var(--color);
-  cursor: pointer;
+  cursor: pointer; /* cursor: pointer; */
+}
+.abcd li a {
+  color: var(--color);
+}
+.abcd li a:hover {
+  color: var(--links-color);
+  /* color: var(--color); */
+  cursor: pointer; /* cursor: pointer; */
+}
+.abcd li a {
+  /* background-color: #8b8a89 ; */
+  padding: 10px;
 }

@@ -5,6 +5,7 @@ const LeftCard = () => {
   return (
     <div className="LeftCard">
       <svg
+        href="#"
         id="web-Logo"
         width="50"
         height="125"

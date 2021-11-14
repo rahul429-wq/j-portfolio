@@ -15,3 +15,27 @@
   justify-content: center;
   align-items: center;
 }
+
+.LeftBar {
+  width: 10%;
+  /* padding: 10px; */
+  min-height: 100vh;
+
+  background-color: var(--l-bg);
+}
+
+.RightBar {
+  width: 90%;
+  padding: 10px;
+  min-height: 100vh;
+  background-color: var(--r-bg);
+}
+
+@media (max-width: 940px) {
+  .LeftBar {
+    width: 20%;
+  }
+  .RightBar {
+    width: 80%;
+  }
+}
