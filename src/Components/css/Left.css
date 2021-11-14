@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+:root {
+  --r-bg: #1d1d1d;
+  --l-bg: #181818;
+  --l-card-bg: #000000;
+  --links-color: #8b8a89;
+  --color: #fff;
+}
+.LeftBar {
+  width: 10%;
+  /* padding: 10px; */
+  min-height: 100vh;
+
+  background-color: var(--l-bg);
+}
+
+.LeftCard {
+  background-color: var(--l-card-bg);
+  padding: 15px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-family: "Squada One", cursive;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--color);
+}
+p {
+  /* font-family: Strong; */
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--color);
+}
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+.Links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--links-color);
+}
+.Links ul li {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  /* border-bottom: var(--links-color) 1px solid; */
+}
+.Links ul li :hover {
+  background-color: var(--links-color);
+  color: var(--color);
+  cursor: pointer;
+}

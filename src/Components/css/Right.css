@@ -1,0 +1,10 @@
+:root {
+  --r-bg: #1d1d1d;
+  --l-bg: #181818;
+}
+.RightBar {
+  width: 90%;
+  padding: 10px;
+  min-height: 100vh;
+  background-color: var(--r-bg);
+}
